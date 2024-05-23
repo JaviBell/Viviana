@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background-color: hsl(312, 100%, 67%);
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        input[type="text"], input[type="email"], input[type="tel"] {
+            width: calc(100% - 16px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hoja de Vida</h1>
+</header>
+
+<div class="container">
+    <a class = perfil><img src="viviana1.jpg"></a>
+    <h2>Información Básica</h2>
+    <p>Nombre: Heidy Viviana Sierra Arévalo</p>
+    <p>Edad: 20 años</p>
+    <p>Signo zodiacal: Acuario</p>
+    <p>Termino bachiller en la institucion educativa departamental Bolivar, Prom 2022</p>
+
+    <p>Profesión: Ingeniería de Sistemas y Computación, Curso de Maquillaje Profesional</p>
+
+    <h2>Empleos</h2>
+    <table>
+        <tr>
+            <th>Empresa: Mavi accesorios</th>
+            <th>Cargo</th>
+            <th>Periodo</th>
+        </tr>
+        <tr>
+            <td>Estudio de Maquillaje "Belleza Total"</td>
+            <td>Maquillista Profesional</td>
+            <td>2022 - Presente</td>
+        </tr>
+        <tr>
+            <td>Cafebar "El cafecito de Sarita"</td>
+            <td>Mesera</td>
+            <td>2023-continua</td>
+        </tr>
+    </table>
+
+    <h2>Proyectos Realizados</h2>
+    <ul>
+        <li>Desarrollo de aplicación de Reconocimiento Facial</li>
+    </ul>
+    
+    <h2>Estado civil</h2>
+    <ul>
+        <li>Soltera, madre de un perro</li>
+    </ul>
+    
+    
+    
+
+    <h2>Contacto</h2>
+    <form action="#" method="post">
+        <input type="text" name="nombre" placeholder="Nombre" required><br>
+        <input type="email" name="email" placeholder="Correo electrónico" required><br>
+        <input type="tel" name="telefono" placeholder="Número de teléfono" required><br>
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+
+</body>
+</html>
